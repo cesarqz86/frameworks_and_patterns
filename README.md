@@ -1,25 +1,18 @@
-Readme.txt
+====================================================
+Autores  ===========================================
+====================================================
 
-================================================================================
-Autores  =======================================================================
-================================================================================
-
-Nombre de los Autores
-------------------------
+Nombre de los Autores:
+----------------------
 
 Alejandra Cruz Gaviria
-
+Cesar Augusto Quiroz Zora
+Jaime Adalberto Trujillo de la Torre 
 Paola Andrea Madrid Arango 
 
-
-Cesar Augusto Quiroz Zora
-
-Jaime Adalberto Trujillo de la Torre 
-
-
-================================================================================
-Versión ========================================================================
-================================================================================
+====================================================
+Versión ============================================
+====================================================
 
 Versión 1.0 03-03-2014
     - Se utilizó Refletion para leer todas las clases que heredaban de
@@ -41,24 +34,31 @@ Versión 2.0 05-03-2014
       lectura de las nuevas especificaciones en runtime
 
 ================================================================================
+Pre-requisitos ============================================
+================================================================================
+
+1. Tener instalado el JDK 1.7
+	  
+================================================================================
 Instalación y ejecución el programa ============================================
 ================================================================================
 
 1. Clonar el contenido de la carpeta dependecy_injection_workshop
-2. Importar los siguinetes proyectos como proyectos Maven: 
+2. Importar los siguientes proyectos como proyectos Maven: 
 	- billingservice-core
 	- billingservice-guice
-3. Importar el siguinte proyecto como un proyecto Java
+3. Importar el siguiente proyecto como un proyecto Java
 	- externaljar-billingservice
-4. Se debe modificar la línea 39 colocando la ruta de la carpeta donde desea 
+4. Se debe modificar la línea 39 de la clase "LoadImplementation" del proyecto 
+   "billingservice-core" colocando la ruta de la carpeta donde desea 
    que el sistema identifique los jar a cargar en runtime, 
    ejemplo: D:/TEMP/JARFILES
 5. Exportar el jar del proyecto billingservice-core
 6. Cargar el jar en el proyecto billingservice-guice
 
-7. Como ejemplo se adiciono el proyecto externaljar-billingservice el cual 
+7. Como ejemplo se adicionó el proyecto externaljar-billingservice el cual 
    contiene una serie de implementaciones de la interface TransactionProcessor, 
-   de este poryecto se pretende exportar el jar y cargarlo en 
+   de este proyecto se pretende exportar el jar y cargarlo en 
    billingservice-guice cuando el programa se encuentre corriendo, y poder 
    evaluar la carga de la inyección de dependencias en runtime
 
