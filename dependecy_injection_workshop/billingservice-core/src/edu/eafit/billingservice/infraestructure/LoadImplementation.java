@@ -17,6 +17,7 @@ public class LoadImplementation {
 
 	private static Map<String, TransactionProcessor> implementationsByName;
 	private static Map<String, String> implementationsNames;
+	private static final String FOLDERPATH = "D:/TEMP/JARFILES";
 
 	public static Map<String, TransactionProcessor> getImplementation() {
 
@@ -36,7 +37,7 @@ public class LoadImplementation {
 				}
 			}
 
-			File folder = new File("D:/TEMP/JARFILES");
+			File folder = new File(FOLDERPATH);
 			if (folder.listFiles().length > 0) {
 				for (final File fileEntry : folder.listFiles()) {
 
@@ -92,7 +93,7 @@ public class LoadImplementation {
 				}
 			}
 
-			File folder = new File("D:/TEMP/JARFILES");
+			File folder = new File(FOLDERPATH);
 			if (folder.listFiles().length > 0) {
 				for (final File fileEntry : folder.listFiles()) {
 

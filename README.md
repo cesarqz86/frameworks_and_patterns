@@ -38,6 +38,7 @@ Pre-requisitos ============================================
 ================================================================================
 
 1. Tener instalado el JDK 1.7
+2. Los se encuentran 
 	  
 ================================================================================
 Instalación y ejecución el programa ============================================
@@ -49,7 +50,7 @@ Instalación y ejecución el programa ==========================================
 	- billingservice-guice
 3. Importar el siguiente proyecto como un proyecto Java
 	- externaljar-billingservice
-4. Se debe modificar la línea 39 de la clase "LoadImplementation" del proyecto 
+4. Se debe modificar la línea 20 de la clase "LoadImplementation" del proyecto 
    "billingservice-core" colocando la ruta de la carpeta donde desea 
    que el sistema identifique los jar a cargar en runtime, 
    ejemplo: D:/TEMP/JARFILES
