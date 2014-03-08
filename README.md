@@ -33,16 +33,16 @@ Versión 2.0 05-03-2014
     - Se generó el proyecto externaljar-billingservice para ejemplificar la 
       lectura de las nuevas especificaciones en runtime
 
-================================================================================
-Pre-requisitos ============================================
-================================================================================
+====================================================
+Pre-requisitos =====================================
+====================================================
 
 1. Tener instalado el JDK 1.7
 2. Los se encuentran 
 	  
-================================================================================
-Instalación y ejecución el programa ============================================
-================================================================================
+====================================================
+Instalación y ejecución el programa ================
+====================================================
 
 1. Clonar el contenido de la carpeta dependecy_injection_workshop
 2. Importar los siguientes proyectos como proyectos Maven: 
@@ -54,14 +54,10 @@ Instalación y ejecución el programa ==========================================
    "billingservice-core" colocando la ruta de la carpeta donde desea 
    que el sistema identifique los jar a cargar en runtime, 
    ejemplo: D:/TEMP/JARFILES
-5. Exportar el jar del proyecto billingservice-core
-6. Cargar el jar en el proyecto billingservice-guice
-
-7. Como ejemplo se adicionó el proyecto externaljar-billingservice el cual 
+5. Como ejemplo se adicionó el proyecto externaljar-billingservice el cual 
    contiene una serie de implementaciones de la interface TransactionProcessor, 
    de este proyecto se pretende exportar el jar y cargarlo en 
    billingservice-guice cuando el programa se encuentre corriendo, y poder 
    evaluar la carga de la inyección de dependencias en runtime
 
-
-================================================================================
+====================================================
