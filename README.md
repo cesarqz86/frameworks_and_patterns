@@ -4,14 +4,13 @@ Autores  ================================
 
 Nombre de los Autores:
 ----------------------
-
-Alejandra Cruz Gaviria
-Cesar Augusto Quiroz Zora
-Jaime Adalberto Trujillo de la Torre 
-Paola Andrea Madrid Arango 
+	- Alejandra Cruz Gaviria
+	- Cesar Augusto Quiroz Zora
+	- Jaime Adalberto Trujillo de la Torre 
+	- Paola Andrea Madrid Arango 
 
 =========================================
-Versión =================================
+Versión ================================
 =========================================
 
 Versión 1.0 03-03-2014
@@ -26,14 +25,14 @@ Versión 2.0 05-03-2014
     - Se generó el proyecto externaljar-billingservice para ejemplificar la lectura de las nuevas especificaciones en runtime
 
 =========================================
-Pre-requisitos ==========================
+Pre-requisitos =============================
 =========================================
 
 1. Tener instalado el JDK 1.7
 2. Eclipse EE 
 	  
 =========================================
-Instalación y ejecución el programa =====
+Instalación y ejecución el programa
 =========================================
 
 1. Clonar el contenido de la carpeta dependecy_injection_workshop
@@ -44,5 +43,6 @@ Instalación y ejecución el programa =====
 	- externaljar-billingservice
 4. Se debe modificar la línea 20 de la clase "LoadImplementation" del proyecto "billingservice-core" colocando la ruta de la carpeta donde desea que el sistema identifique los jar a cargar en runtime, ejemplo: D:/TEMP/JARFILES
 5. Como ejemplo se adicionó el proyecto externaljar-billingservice el cual contiene una serie de implementaciones de la interface TransactionProcessor, de este proyecto se pretende exportar el jar y cargarlo en billingservice-guice cuando el programa se encuentre corriendo, y poder evaluar la carga de la inyección de dependencias en runtime.
+6. Se debe ejecutar la clase "ProcessExecuter" del proyecto billingservice-guice en el paquete "edu.eafit.billingservice.main", el cual contiene la clase main de la solución.
 
 =========================================
