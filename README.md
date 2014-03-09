@@ -13,19 +13,19 @@ Nombre de los Autores:
 Versión ================================
 =========================================
 
-Versión 1.0 03-03-2014
-    - Se utilizó Reflection para leer todas las clases que heredaban de la interfaz TransactionProcessor en un paquete específico.
-    - Se creó una consola en la que el usuario ponía el nombre de la Implementación que se quería usar.
-    - Se utilizó el Binding Provider de Google Guice para inyectar la dependencia de la interfaz TransactionProcesor al metodo Charge de la clase billingService en el metodo chargeOrder
+* Versión 1.0 03-03-2014
+	- Se utilizó Reflection para leer todas las clases que heredaban de la interfaz TransactionProcessor en un paquete específico.
+	- Se creó una consola en la que el usuario ponía el nombre de la Implementación que se quería usar.
+	- Se utilizó el Binding Provider de Google Guice para inyectar la dependencia de la interfaz TransactionProcesor al metodo Charge de la clase billingService en el metodo chargeOrder
     
-Versión 2.0 05-03-2014 
-    - Se creó un menu para que el programa se ejecute hasta que el usuario decidiera salirse (Opción 1 ver las posibles opciones para realizar la transacción y opción 2 para salirse del sistema).
-    - Una de las opciones del menú muestra todas las implementaciones activas que se encuentran el programa 
-    - Se separó la interfaz TransactionProcesor principal del Proyecto billingservice-guice en un proyecto llamado billingservice-core 
-    - Se generó el proyecto externaljar-billingservice para ejemplificar la lectura de las nuevas especificaciones en runtime
+* Versión 2.0 05-03-2014 
+	- Se creó un menu para que el programa se ejecute hasta que el usuario decidiera salirse (Opción 1 ver las posibles opciones para realizar la transacción y opción 2 para salirse del sistema).
+	- Una de las opciones del menú muestra todas las implementaciones activas que se encuentran el programa 
+	- Se separó la interfaz TransactionProcesor principal del Proyecto billingservice-guice en un proyecto llamado billingservice-core 
+	- Se generó el proyecto externaljar-billingservice para ejemplificar la lectura de las nuevas especificaciones en runtime
 
 =========================================
-Pre-requisitos =============================
+Pre-requisitos ======================
 =========================================
 
 1. Tener instalado el JDK 1.7
