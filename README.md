@@ -25,7 +25,7 @@ Versión ================================
 	- Se generó el proyecto externaljar-billingservice para ejemplificar la lectura de las nuevas especificaciones en runtime
 
 =========================================
-Pre-requisitos =========================
+Pre-requisitos ==========================
 =========================================
 
 1. Tener instalado el JDK 1.7
